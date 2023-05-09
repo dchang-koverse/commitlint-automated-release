@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-echo "\nThis is a pre-push hook\n"
+echo "\nThis runs before changes are pushed to remote.\nWe can automatically run QA, lint, and tests before changes make it to remote\n"
